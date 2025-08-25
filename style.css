@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Fira sans regular";
+    src: url(fonts/FiraSans-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fira sans bold";
+    src: url(fonts/FiraSans-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fira sans italic";
+    src: url(fonts/FiraSans-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "fira sans medium";
+    src: url(fonts/FiraSans-Medium.ttf) format(truetype);
+    font-weight: 50;
+    font-style: normal;
+}
+
+/* aplicaciones*/
+
+body {
+    background-color: #fff9ef;
+}
+
+nav {
+    font-family: 'Fira sans regular', sans-serif;
+    color: brown;
+    font-size: 1rem;
+}
+
+h1 {
+   font-family:'fira sans bold', sans-serif;
+    color: brown;
+    font-size: 3rem;
+    line-height: 1rem;
+}
+
+h2 {
+    font-family:'fira sans medium', sans-serif;
+    color: black;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+h3 {
+    font-family:'fira sans medium', sans-serif;
+    color: brown;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+h4 {
+    font-family:'fira sans italic', sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    line-height: 0.8;
+}
+
+p {
+    font-family:'Fira sans regular', sans-serif;
+    color: black;
+    font-size: 1rem;
+    text-wrap: balance;
+    line-height: 1.8rem;
+}
