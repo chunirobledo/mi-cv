@@ -24,7 +24,7 @@
         </section>
 
         <img src="foto.jpg" alt="Mi foto" width="500"
-
+<!-- Fijate que no cerraste esta imagen. También falta ponerle un height. -->
         <article>
             <h3>Perfil profesional</h3>
                 <p>Soy estudiante universitaria de la Licenciatura en Diseño y Comunicación Visual y busco un empleo que me
@@ -56,12 +56,14 @@
 
 
         <section id="Educación">
+<!-- Intentar que los id no tengan mayúsculas ni acentos, más que nada porque a veces se puede romper el código así -->
             <h3>Educación</h3>
             <h4>Licenciatura en Diseño y Comunicación Visual</h4>
                 <p>Universidad Nacional de Lanús | Marzo 2019 - Actualidad</p>
         </section>
 
         <section id="Software y herramientas">
+            <!-- No poner espacios en los nombres de id ni clases. La razón es que un section, por ejemplo, puede tener más de una clase o id, y la forma de hacerlo es poniendo un espacio. Es decir, sería algo asi: class="clase1 clase2". Con los espacios en "software y herrameintas" le estás diciendo que tiene 3 ids, no uno solo. Usa guiones en su lugar. -->
             <h3>Software y herramientas</h3>
             <h4>Microsoft Office</h4>
                 <p>Avanzado</p>
@@ -80,8 +82,8 @@
        </main>
 
        <footer>
-            <P>Mis redes sociales</P>
-            <ul>
+            <P>Mis redes sociales</P> <!-- Cuidado con las mayúsculas en etiquetas, siempre minúscula. -->
+            <ul> <!-- No necesitas una lista para un solo item, pensalo como si vos armaras una lista y tuviera solo un punto. Podes directamente usar un div acá si lo necesitas. -->
                 <li>
                     <img src="linkedin-logo.png" alt="LinkedIn logo" width="300">
                     <a href="https://ar.linkedin.com/in/agustina-robledo-39031a21a/en?trk=people-guest_people_search-card">LinkedIn</a>
