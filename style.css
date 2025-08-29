@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Fira sans regular";
+    src: url(fonts/FiraSans-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fira sans bold";
+    src: url(fonts/FiraSans-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fira sans italic";
+    src: url(fonts/FiraSans-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "fira sans medium";
+    src: url(fonts/FiraSans-Medium.ttf) format(truetype);
+    font-weight: 50;
+    font-style: normal;
+}
+
+/* aplicaciones*/
+
+body {
+    background-color: #fdfdff;
+}
+
+nav {
+    font-family: 'Fira sans regular', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    margin-left: 215px;
+    padding-top: 70px;
+    display: flex;
+    gap: 150px;
+}
+
+h1 {
+   font-family:'fira sans bold', sans-serif;
+    color: rgb(0, 0, 150);
+    font-size: 3.5rem;
+    line-height: 1rem;
+    margin-bottom: 1px;
+    margin-left: 185px;
+    padding: 30px;
+}
+
+h2 {
+    font-family:'fira sans medium', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-left: 215px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family:'fira sans medium', sans-serif;
+    color: rgb(0, 0, 150);
+    font-size: 1.8rem;
+    line-height: 1rem;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 15px;
+}
+
+h4 {
+    font-family:'fira sans italic', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 0.8;
+    margin-left: 250px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+p {
+    font-family:'Fira sans regular', sans-serif;
+    color: black;
+    font-size: 1rem;
+    text-wrap: balance;
+    line-height: 1.8rem;
+    margin-left: 280px;
+    margin-top: 1px;
+    max-width: 950px;
+    padding-top: 10px;
+}
+
+img {
+    margin-left: 215px;
+    margin-top: 45px;
+    border: solid;
+}
+
+footer img {
+  margin-left: 175px;
+  margin-top: 10px;
+  border: transparent; 
+}
+
+#pp h1 {
+    border-bottom: 2px solid rgb(0, 0, 150);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
